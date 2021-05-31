@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+
+html{ 
+    background:grey;
+
+    }
+
+.cafe1 {
+font-family: 'Girassol', cursive;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 6em;
+    color: #155577;
+    font-size: 30pt;
+    text-shadow: 5px 2px 4px black; 
+}
+.second{
+font-style:italic;
+    padding:10px;
+    width:300px;
+    height:30px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+     background: radial-gradient(position, shape or size, color-stops);
+}
+.second h2:after {content: "";
+position: absolute;
+height: 2px;
+width: 100px;
+background:black;
+top: 120%;
+margin: 0 auto;
+left: 0;
+right: 0;}
+.second h2:before {content: "";
+position: absolute;
+height: 10px;
+width: 10px;
+background:black;
+top: 112%;
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+margin: 0 auto;
+left: 0;
+right: 0;}
+
+button {
+    margin-top:70px;
+    outline:none;
+    font-weight:bolder;
+   box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Arial;
+    font-size:14px;
+    padding:7px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed; 
+ 
+     
+
+
+}
+img {
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+    border: solid 2px;
+ }
+
+   .images{ 
+    color: red;
+    float:left;
+    overflow: hidden;
+
+}
+
+#prev {
+    text-align:center ;
+    border-radius:100%;
+    display:inline-block;
+    padding: 10px;
+    
+}
+#next{
+    text-align:center;
+    border-radius:100%;
+    display:inline-block;
+    padding:10px;
+    }
+    .maindiv {
+        margin-bottom: 10px;
+    }
+
