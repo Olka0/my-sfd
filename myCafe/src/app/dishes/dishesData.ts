@@ -5,6 +5,7 @@ export const ELEMENT_DATA = [
     name: 'Bruschetta with tomato and fresh basil',
     description: 'Cubes of fresh tomato paired with the flavor of basil and olive oil, served on slices of toasted bread.',
     price : 10
+
 },
 {
   id: "Starters",
