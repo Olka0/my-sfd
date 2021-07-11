@@ -1,4 +1,4 @@
-package com.cafe.menu.resourse;
+package com.cafe.menu.controller;
 
 import java.util.List;
 
@@ -33,7 +33,7 @@ public class MenuResourse{
     return new ResponseEntity<>(disheses, HttpStatus.OK);
       }
       @GetMapping("/find/{id}")
-  public ResponseEntity<Dishes> getAllDishesById (@PathVariable("id") String id){
+  public ResponseEntity<Dishes> getAllDishesById (@PathVariable("id") int id){
     Dishes dishes = menuService.findDishesById(id);
     return new ResponseEntity<>(dishes, HttpStatus.OK);
 }
@@ -49,8 +49,8 @@ public ResponseEntity<Dishes> updateDishes(@RequestBody Dishes dishes) {
   return new ResponseEntity<>(updateDishes, HttpStatus.OK);
 }
 @DeleteMapping("/delete/{id}")
-    public ResponseEntity<?> deleteDishes(@PathVariable("id") String id) {
-        menuService.deleteDishes(id);
+    public ResponseEntity<?> deleteDishes(@PathVariable("id") int generatedId) {
+        menuService.deleteDishes(generatedId);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }

@@ -16,7 +16,7 @@ import { ELEMENT_DATA } from './dishesData';
 export class DishesComponent implements OnInit {
   data = ELEMENT_DATA;
  // data.style = 'display:none';
-  displayedColumns: string[] = ['id', 'name', 'description', 'price'];
+  displayedColumns: string[] = ['id', 'name', 'description', 'price', 'dishesCode'];
 
 
   constructor() {}
